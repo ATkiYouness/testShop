@@ -1,0 +1,33 @@
+# you describe your data using the YAML notation here
+# and then load them using Fixtures.load("data.yml")
+
+
+
+    Categorie(categorie1):
+        infoCategory: Infomatique
+
+
+    Categorie(categorie2):
+       infoCategory: Livres
+
+
+    Produit(produit1):
+        libelle: PcDellX123
+        quantiteEnStock: 176
+        categoryProduit: categorie1
+
+    Produit(produit2):
+        libelle: javaParLexemple
+        quantiteEnStock: 76
+        categoryProduit: categorie2
+
+    Produit(produit3):
+        libelle: CLavier12xp
+        quantiteEnStock: 56
+        categoryProduit: categorie1
+
+    Produit(produit4):
+        libelle: DVD16X Lg
+        quantiteEnStock: 176
+        categoryProduit: categorie1
+
